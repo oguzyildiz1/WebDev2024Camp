@@ -10,12 +10,13 @@
             min-width: 100vh;
             height: 90vh;
             position: relative;
+            background-color: hsla(45, 29%, 46%, 0.994);
         }
 
         .game-board {
             width: 300px;
             height: 300px;
-            border: 5px solid black;
+            border: 5px solid white;
             position: absolute;
             right: 520px;
             bottom: 20px;
@@ -35,13 +36,36 @@
 </head>
 
 <body>
-
+    <button onclick="move()">Click me!</button>
     <div class="game-board">
 
         <div class="item">
             asdf
         </div>
     </div>
+
+    <script>
+        function move() {
+            let id = null;
+
+            const elem = document.getElementsByClassName("item")[0];
+            let pos = 0;
+            clearInterval(id);
+
+            id = setInterval(frame, 5);
+
+            function frame() {
+                if (pos == 200) {
+                    clearInterval(id);
+                } else {
+                    pos++;
+                    console.log(pos);
+                    elem.style.top = pos + "px";
+                    elem.style.left = pos + "px";
+                }
+            }
+        }
+    </script>
 
 </body>
 
