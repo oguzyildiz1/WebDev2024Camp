@@ -1,0 +1,3 @@
+some notes:
+    variables are used for saving the data on memory, or data will be lost.
+    
