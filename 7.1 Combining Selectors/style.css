@@ -11,3 +11,7 @@ div.box>p {
 div.box li {
     color: blue;
 }
+
+ul p.done {
+    font-size: 0.5rem;
+}

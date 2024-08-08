@@ -1,0 +1,5 @@
+string.length
+string.slice(0,5): 0 ile başlayıp 5'e kadarki kısmı kesiyor.(5 hariç) Eğer ne kadar aldığını kolayca hesaplamak istersek, 5'ten 0'ı çıkarıyoruz; yani 5 karakter kesiyor.
+
+prompt: kullanıcıdan girdi alıyor.
+ctrl + / : comment line olarak değiştiriyor.(dev tools, snippets)
