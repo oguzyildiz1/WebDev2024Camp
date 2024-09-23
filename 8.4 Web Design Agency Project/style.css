@@ -22,9 +22,16 @@ div.card {
 
 .card img {
   width: 300px;
-  float: left;
   margin: 20px;
   margin-left: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 footer {
